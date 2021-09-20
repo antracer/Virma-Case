@@ -34,15 +34,11 @@ body {
 
 /* Home Section */
 .home {
-  display: flex;
-  position: relative;
   width: inherit;
   height: 32.65rem;
 }
 @media screen and (min-width: 960px) {
   .home {
-    left: 0;
-    top: 0;
     width: inherit;
     height: 37.86rem;
   }
@@ -61,8 +57,6 @@ body {
 }
 
 .home__blur-rectangle {
-  left: 0;
-  top: 0;
   width: 11.79rem;
   height: 32.65rem;
   z-index: 1;
@@ -126,8 +120,8 @@ body {
 }
 @media screen and (min-width: 1921px) {
   .home__virna-oblojka {
-    left: -9rem;
-    top: 0;
+    left: 0;
+    top: -0.06rem;
     width: 147.29rem;
     height: 80.93rem;
     background: url(images/Virna_oblojka_home_l.png) no-repeat;
@@ -199,8 +193,8 @@ body {
   .home__logo-virna {
     width: 8.54rem;
     height: 1.13rem;
-    left: 9.97rem;
-    top: 2.22rem;
+    left: 12.15rem;
+    top: 2.12rem;
   }
 }
 @media screen and (min-width: 1921px) {
@@ -233,9 +227,10 @@ body {
   .home__heading {
     width: 33.46rem;
     height: 10.18rem;
-    left: 9.97rem;
-    top: 9.87rem;
+    left: 12.15rem;
+    top: 12.66rem;
     font-size: 71.76px;
+    line-height: 72px;
   }
 }
 @media screen and (min-width: 1921px) {
@@ -273,8 +268,8 @@ body {
   .home__subtitle {
     width: 9.19rem;
     height: 4.98rem;
-    left: 8.04rem;
-    top: 28.72rem;
+    left: 9.92rem;
+    top: 31.78rem;
     font-size: 13.95px;
   }
 }
@@ -282,8 +277,8 @@ body {
   .home__subtitle {
     width: 9.29rem;
     height: 5rem;
-    left: 18.21rem;
-    top: 41.93rem;
+    left: 16.1rem;
+    top: 41.5rem;
     font-size: 14px;
   }
 }
@@ -306,8 +301,8 @@ body {
 }
 @media screen and (min-width: 1440px) {
   .home__logo-bonum {
-    left: 88.63rem;
-    top: 2.27rem;
+    left: 90.38rem;
+    top: 2.62rem;
   }
 }
 @media screen and (min-width: 1921px) {
@@ -359,13 +354,13 @@ body {
 }
 @media screen and (min-width: 1440px) {
   .home__year {
-    left: 91.47rem;
-    top: 29.36rem;
+    left: 93.04rem;
+    top: 32.8rem;
   }
 }
 @media screen and (min-width: 1921px) {
   .home__year {
-    left: 118.93rem;
+    left: 116.86rem;
     top: 40.57rem;
   }
 }
@@ -396,15 +391,15 @@ body {
 }
 @media screen and (min-width: 1440px) {
   .home__main-text {
-    left: 89.26rem;
-    top: 22.71rem;
+    left: 90.86rem;
+    top: 25.83rem;
     width: 7rem;
     height: 1.42rem;
   }
 }
 @media screen and (min-width: 1921px) {
   .home__main-text {
-    left: 118.93rem;
+    left: 115rem;
     top: 32rem;
     width: 6.43rem;
     height: 1.43rem;
@@ -434,7 +429,7 @@ body {
 }
 @media screen and (min-width: 1440px) {
   .home__nav {
-    left: 0.25rem;
+    left: 2.11rem;
     top: 51.54rem;
     width: 30.18rem;
     height: 1.48rem;
@@ -442,7 +437,7 @@ body {
 }
 @media screen and (min-width: 1921px) {
   .home__nav {
-    left: 18.21rem;
+    left: 0.03rem;
     top: 70.36rem;
     width: 36rem;
     height: 1.43rem;
@@ -602,7 +597,7 @@ body {
 @media screen and (min-width: 1440px) {
   .colors {
     left: 9.64rem;
-    top: 63.64rem;
+    top: 64.28rem;
     width: 83.64rem;
     height: 54rem;
   }
@@ -610,7 +605,7 @@ body {
 @media screen and (min-width: 1921px) {
   .colors {
     left: 18.21rem;
-    top: 82.5rem;
+    top: 90.5rem;
     width: 100.71rem;
     height: 53rem;
   }
@@ -647,8 +642,8 @@ body {
 }
 @media screen and (min-width: 1921px) {
   .colors__head-text {
-    left: 69.57rem;
-    top: 82.5rem;
+    left: 51.5rem;
+    top: 0;
   }
 }
 
@@ -677,7 +672,7 @@ body {
 @media screen and (min-width: 1440px) {
   .colors__text {
     left: 51.5rem;
-    top: 5.57rem;
+    top: 5.93rem;
     width: 22.57rem;
     font-size: 14px;
     line-height: 19px;
@@ -685,8 +680,8 @@ body {
 }
 @media screen and (min-width: 1921px) {
   .colors__text {
-    left: 71.42rem;
-    top: 45.93rem;
+    left: 62.4rem;
+    top: 9.2rem;
   }
 }
 
@@ -715,14 +710,14 @@ body {
 }
 @media screen and (min-width: 1440px) {
   .colors__absolute-1 {
-    left: -0.79rem;
-    top: 7.58rem;
+    left: 1.8rem;
+    top: 8.69rem;
   }
 }
 @media screen and (min-width: 1921px) {
   .colors__absolute-1 {
-    left: 18.21rem;
-    top: 91.93rem;
+    left: -1.07rem;
+    top: 11rem;
   }
 }
 
@@ -750,7 +745,7 @@ body {
 }
 @media screen and (min-width: 1440px) {
   .colors__main-text {
-    left: 4.5rem;
+    left: 4.41rem;
     top: 17rem;
     width: 31rem;
     font-size: 56px;
@@ -759,8 +754,8 @@ body {
 }
 @media screen and (min-width: 1921px) {
   .colors__main-text {
-    left: 21.79rem;
-    top: 98.05rem;
+    left: 7.5rem;
+    top: 26rem;
   }
 }
 
@@ -795,8 +790,8 @@ body {
 }
 @media screen and (min-width: 1921px) {
   .colors__some-text {
-    left: 37.07rem;
-    top: 108.07rem;
+    left: 23rem;
+    top: 36rem;
   }
 }
 
@@ -825,14 +820,14 @@ body {
 }
 @media screen and (min-width: 1440px) {
   .colors__absolute-2-elem-1 {
-    left: 81rem;
-    top: 23.57rem;
+    left: 82.5rem;
+    top: 26.39rem;
   }
 }
 @media screen and (min-width: 1921px) {
   .colors__absolute-2-elem-1 {
-    left: 117.57rem;
-    top: 106.14rem;
+    left: 97.8rem;
+    top: 31.5rem;
   }
 }
 
@@ -862,8 +857,8 @@ body {
 }
 @media screen and (min-width: 1440px) {
   .colors__absolute-2-elem-2 {
-    left: 63.6rem;
-    top: 29rem;
+    left: 65.1rem;
+    top: 32rem;
     width: 20rem;
     height: 5rem;
     transform: rotate(0deg);
@@ -871,8 +866,8 @@ body {
 }
 @media screen and (min-width: 1921px) {
   .colors__absolute-2-elem-2 {
-    left: 98.86rem;
-    top: 108.5rem;
+    left: 80.7rem;
+    top: 39.4rem;
     width: 20rem;
     height: 5rem;
     transform: rotate(0deg);
@@ -898,14 +893,14 @@ body {
 }
 @media screen and (min-width: 1440px) {
   .colors__absolute-3 {
-    left: 55.22rem;
+    left: 55.94rem;
     width: 9.29rem;
     height: 6.71rem;
   }
 }
 @media screen and (min-width: 1921px) {
   .colors__absolute-3 {
-    left: 89.57rem;
+    left: 71.35rem;
   }
 }
 
@@ -926,12 +921,12 @@ body {
 }
 @media screen and (min-width: 1440px) {
   .colors__absolute-3__elem-1 {
-    top: 48.12rem;
+    top: 53.53rem;
   }
 }
 @media screen and (min-width: 1921px) {
   .colors__absolute-3__elem-1 {
-    top: 128.71rem;
+    top: 65.8rem;
   }
 }
 
@@ -954,20 +949,18 @@ body {
 }
 @media screen and (min-width: 1440px) {
   .colors__absolute-3__elem-2 {
-    top: 42.69rem;
+    top: 48.21rem;
     width: 9.29rem;
     height: 4.29rem;
   }
 }
 @media screen and (min-width: 1921px) {
   .colors__absolute-3__elem-2 {
-    top: 123.29rem;
+    top: 60rem;
   }
 }
 
 .colors__absolute-4 {
-  width: 5rem;
-  height: 5.93rem;
   left: 11.43rem;
 }
 @media screen and (min-width: 768px) {
@@ -978,20 +971,16 @@ body {
 @media screen and (min-width: 960px) {
   .colors__absolute-4 {
     left: 28.57rem;
-    width: 6.43rem;
-    height: 5.93rem;
   }
 }
 @media screen and (min-width: 1440px) {
   .colors__absolute-4 {
-    left: 43.79rem;
-    width: 9.29rem;
-    height: 6.71rem;
+    left: 35.5rem;
   }
 }
 @media screen and (min-width: 1921px) {
   .colors__absolute-4 {
-    left: 78.14rem;
+    left: 57.5rem;
   }
 }
 
@@ -1012,12 +1001,12 @@ body {
 }
 @media screen and (min-width: 1440px) {
   .colors__absolute-4__elem-1 {
-    top: 39.57rem;
+    top: 46.17rem;
   }
 }
 @media screen and (min-width: 1921px) {
   .colors__absolute-4__elem-1 {
-    top: 122rem;
+    top: 56.6rem;
   }
 }
 
@@ -1038,14 +1027,14 @@ body {
 }
 @media screen and (min-width: 1440px) {
   .colors__absolute-4__elem-2 {
-    top: 34.15rem;
-    width: inherit;
+    top: 41rem;
+    width: 9.29rem;
     height: 4.29rem;
   }
 }
 @media screen and (min-width: 1921px) {
   .colors__absolute-4__elem-2 {
-    top: 116.57rem;
+    top: 50.8rem;
   }
 }
 
@@ -1072,14 +1061,14 @@ body {
   .colors__absolute-5 {
     width: 9.29rem;
     height: 4.29rem;
-    left: 66.65rem;
-    top: 42.69rem;
+    left: 67.71rem;
+    top: 48.21rem;
   }
 }
 @media screen and (min-width: 1921px) {
   .colors__absolute-5 {
-    left: 101rem;
-    top: 123.29rem;
+    left: 85.2rem;
+    top: 60rem;
   }
 }
 
@@ -1106,7 +1095,7 @@ body {
 }
 @media screen and (min-width: 1921px) {
   .colors__absolute-6 {
-    left: 26.79rem;
+    left: 19.4rem;
   }
 }
 
@@ -1127,12 +1116,12 @@ body {
 }
 @media screen and (min-width: 1440px) {
   .colors__absolute-6__elem-1 {
-    top: 45.86rem;
+    top: 53.53rem;
   }
 }
 @media screen and (min-width: 1921px) {
   .colors__absolute-6__elem-1 {
-    top: 127.93rem;
+    top: 65.8rem;
   }
 }
 
@@ -1153,14 +1142,14 @@ body {
 }
 @media screen and (min-width: 1440px) {
   .colors__absolute-6__elem-2 {
-    top: 40.86rem;
+    top: 48.21rem;
     width: 9.29rem;
     height: 4.29rem;
   }
 }
 @media screen and (min-width: 1921px) {
   .colors__absolute-6__elem-2 {
-    top: 122.93rem;
+    top: 60rem;
   }
 }
 
@@ -1189,7 +1178,7 @@ body {
 }
 @media screen and (min-width: 1921px) {
   .colors__absolute-7 {
-    left: 38.21rem;
+    left: 33.5rem;
   }
 }
 
@@ -1210,12 +1199,12 @@ body {
 }
 @media screen and (min-width: 1440px) {
   .colors__absolute-7__elem-1 {
-    top: 52.15rem;
+    top: 60.53rem;
   }
 }
 @media screen and (min-width: 1921px) {
   .colors__absolute-7__elem-1 {
-    top: 134.21rem;
+    top: 74.8rem;
   }
 }
 
@@ -1236,14 +1225,14 @@ body {
 }
 @media screen and (min-width: 1440px) {
   .colors__absolute-7__elem-2 {
-    top: 47.15rem;
+    top: 55rem;
     width: inherit;
     height: 4.29rem;
   }
 }
 @media screen and (min-width: 1921px) {
   .colors__absolute-7__elem-2 {
-    top: 129.21rem;
+    top: 69rem;
   }
 }
 
@@ -1268,16 +1257,16 @@ body {
 }
 @media screen and (min-width: 1440px) {
   .colors__absolute-8 {
-    left: 27.36rem;
-    top: 47.15rem;
+    left: 27.83rem;
+    top: 55rem;
     width: 9.29rem;
     height: 4.29rem;
   }
 }
 @media screen and (min-width: 1921px) {
   .colors__absolute-8 {
-    left: 49.64rem;
-    top: 129.21rem;
+    left: 47.64rem;
+    top: 69rem;
   }
 }
 
@@ -1307,16 +1296,16 @@ body {
 }
 @media screen and (min-width: 1440px) {
   .colors__absolute-9 {
-    left: 83.15rem;
-    top: 63.64rem;
+    left: 80.75rem;
+    top: 58.95rem;
     font-size: 16px;
     line-height: 20px;
   }
 }
 @media screen and (min-width: 1921px) {
   .colors__absolute-9 {
-    left: 117.5rem;
-    top: 135.5rem;
+    left: 97.8rem;
+    top: 72rem;
   }
 }
 
@@ -1342,8 +1331,8 @@ body {
 @media screen and (min-width: 1440px) {
   .thank {
     width: inherit;
-    height: 35.43rem;
-    top: 136.35rem;
+    height: 47.14rem;
+    top: 133.7rem;
   }
 }
 @media screen and (min-width: 1921px) {
@@ -1351,7 +1340,7 @@ body {
     width: 97.79rem;
     height: 63.21rem;
     left: 0.43rem;
-    top: 142.64rem;
+    top: 80rem;
   }
 }
 
@@ -1372,14 +1361,14 @@ body {
 }
 @media screen and (min-width: 1440px) {
   .thank__logo-bonum {
-    left: 9.64rem;
+    left: 12rem;
     top: 7.14rem;
   }
 }
 @media screen and (min-width: 1921px) {
   .thank__logo-bonum {
     left: 18.21rem;
-    top: 149.64rem;
+    top: 0;
   }
 }
 
@@ -1407,8 +1396,8 @@ body {
 }
 @media screen and (min-width: 1440px) {
   .thank__heading {
-    left: 52.5rem;
-    top: 16.07rem;
+    left: 64.7rem;
+    top: 19rem;
     font-size: 72px;
     line-height: 91px;
   }
@@ -1443,8 +1432,8 @@ body {
 }
 @media screen and (min-width: 1440px) {
   .thank__additional-text {
-    left: 50rem;
-    top: 28.5rem;
+    left: 62.2rem;
+    top: 30.7rem;
     font-size: 14px;
     line-height: 18px;
   }

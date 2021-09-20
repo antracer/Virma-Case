@@ -56,12 +56,9 @@ section {
 /* Home Section */
 
 .home {
-	display: flex;
-	position: relative;
 	@include height-width(32.65rem);
 
 	@media screen and (min-width: 960px) {
-		@include left-top;
 		@include height-width(37.86rem);
 	}
 
@@ -75,7 +72,6 @@ section {
 }
 
 .home__blur-rectangle {
-	@include left-top;
 	@include height-width(32.65rem, 11.79rem);
 	z-index: 1;
 	background: #F0EEEC;
@@ -121,7 +117,7 @@ section {
 	}
 
 	@media screen and (min-width: 1921px) {
-		@include left-top(-9rem);
+		@include left-top(0, -0.06rem);
   	@include height-width(80.93rem, 147.29rem);
     background: url(images/Virna_oblojka_home_l.png) no-repeat;
 
@@ -173,7 +169,7 @@ section {
 
 	@media screen and (min-width: 1440px) {
 		@include height-width(1.13rem, 8.54rem);
-		@include left-top(9.97rem, 2.22rem);
+		@include left-top(12.15rem, 2.12rem);
 	}
 
 	@media screen and (min-width: 1921px) {
@@ -197,8 +193,9 @@ section {
 
 	@media screen and (min-width: 1440px) {
 			@include height-width(10.18rem, 33.46rem);
-			@include left-top(9.97rem, 9.87rem);
+			@include left-top(12.15rem, 12.66rem);
 			font-size: 71.76px;
+    	line-height: 72px;
 	}
 
 	@media screen and (min-width: 1921px) {
@@ -226,13 +223,13 @@ section {
 
 	@media screen and (min-width: 1440px) {
 		@include height-width(4.98rem, 9.19rem);
-		@include left-top(8.04rem, 28.72rem);
+		@include left-top(9.92rem, 35.71rem - 3.64rem - 0.29rem);
 		font-size: 13.95px;
 	}
 
 	@media screen and (min-width: 1921px) {
 		@include height-width(5rem, 9.29rem);
-		@include left-top(18.21rem, 41.93rem);
+		@include left-top(16.1rem, 41.5rem);
 		font-size: 14px;
 	}
 }
@@ -249,7 +246,7 @@ section {
 	}
 
 	@media screen and (min-width: 1440px) {
-		@include left-top(88.63rem, 2.27rem);
+		@include left-top(88.63rem + 1.56rem + 0.19rem, 2.27rem + 0.35rem);
 	}
 
 	@media screen and (min-width: 1921px) {
@@ -290,11 +287,11 @@ section {
 	}
 
 	@media screen and (min-width: 1440px) {
-		@include left-top(91.47rem, 29.36rem);
+		@include left-top(93.04rem, 32.8rem);
 	}
 
 	@media screen and (min-width: 1921px) {
-		@include left-top(118.93rem, 40.57rem);
+		@include left-top(116.86rem, 40.57rem);
 	}
 }
 
@@ -316,12 +313,12 @@ section {
 	}
 
 	@media screen and (min-width: 1440px) {
-		@include left-top(89.26rem, 22.71rem);
+		@include left-top(90.86rem, 27.5rem - 1.67rem);
 		@include height-width(1.42rem, 7rem);
 	}
 
 	@media screen and (min-width: 1921px) {
-		@include left-top(118.93rem, 32rem);
+		@include left-top(115rem, 32rem);
 		@include height-width(1.43rem, 6.43rem);
 	}
 }
@@ -341,12 +338,12 @@ section {
 	}
 
 	@media screen and (min-width: 1440px) {
-		@include left-top(0.25rem, 51.54rem);
+		@include left-top(0.25rem + 1.86rem, 51.54rem);
 		@include height-width(1.48rem, 30.18rem);
 	}
 
 	@media screen and (min-width: 1921px) {
-		@include left-top(18.21rem, 70.36rem);
+		@include left-top(0.03rem, 70.36rem);
 		@include height-width(1.43rem, 36rem);
 	}
 }
@@ -474,12 +471,12 @@ section {
 	}
 
 	@media screen and (min-width: 1440px) {
-		@include left-top(9.64rem, 63.64rem);
+		@include left-top(9.64rem, 63.64rem + 0.64rem);
 		@include height-width(54rem, 83.64rem);
 	}
 
 	@media screen and (min-width: 1921px) {
-		@include left-top(18.21rem, 82.5rem);
+		@include left-top(18.21rem, 90.5rem);
 		@include height-width(53rem, 100.71rem);
 	}
 }
@@ -509,7 +506,7 @@ section {
 	}
 
 	@media screen and (min-width: 1921px) {
-		@include left-top(69.57rem, 82.5rem);
+		@include left-top(51.5rem, 0);
 	}
 }
 
@@ -531,14 +528,14 @@ section {
 	}
 
 	@media screen and (min-width: 1440px) {
-		@include left-top(51.5rem, 5.57rem);
+		@include left-top(51.5rem, 5.57rem + 0.36rem);
     width: 22.57rem;
 		font-size: 14px;
 		line-height: 19px;
 	}
 
 	@media screen and (min-width: 1921px) {
-		@include left-top(71.42rem, 45.93rem);
+		@include left-top(62.4rem, 9.2rem);
 	}
 }
 
@@ -562,11 +559,11 @@ section {
 	}
 
 	@media screen and (min-width: 1440px) {
-		@include left-top(-0.79rem, 72.52rem - 63.64rem - 1.21rem - 0.09rem);
+		@include left-top(1.8rem, 8.69rem);
 	}
 
 	@media screen and (min-width: 1921px) {
-		@include left-top(18.21rem, 91.93rem);
+		@include left-top(-1.07rem, 11rem);
 	}
 }
 
@@ -588,14 +585,14 @@ section {
 	}
 
 	@media screen and (min-width: 1440px) {
-		@include left-top(13.21rem - 8.71rem, 78.64rem - 63.64rem + 2rem);
+		@include left-top(13.21rem - 8.8rem, 78.64rem - 63.64rem + 2rem);
 		width: 31rem;
     font-size: 56px;
     line-height: 70px;
 	}
 
 	@media screen and (min-width: 1921px) {
-		@include left-top(21.79rem, 98.05rem);
+		@include left-top(7.5rem, 26rem);
 	}
 }
 
@@ -621,7 +618,7 @@ section {
 	}
 
 	@media screen and (min-width: 1921px) {
-		@include left-top(37.07rem, 108.07rem);
+		@include left-top(23rem, 36rem);
 	}
 }
 
@@ -644,11 +641,11 @@ section {
 	}
 
 	@media screen and (min-width: 1440px) {
-		@include left-top(81rem, 87.21rem - 63.64rem);
+		@include left-top(82.5rem, 26.39rem);
 	}
 
 	@media screen and (min-width: 1921px) {
-		@include left-top(117.57rem, 106.14rem);
+		@include left-top(97.8rem, 31.5rem);
 	}
 }
 
@@ -669,13 +666,13 @@ section {
 	}
 
 	@media screen and (min-width: 1440px) {
-		@include left-top(63.6rem, 29rem);
+		@include left-top(65.1rem, 32rem);
 		@include height-width(5rem, 20rem);
 		transform: rotate(0deg);
 	}
 
 	@media screen and (min-width: 1921px) {
-		@include left-top(98.86rem, 108.5rem);
+		@include left-top(80.7rem, 39.4rem);
 		@include height-width(5rem, 20rem);
 		transform: rotate(0deg);
 	}
@@ -695,12 +692,12 @@ section {
 	}
 
 	@media screen and (min-width: 1440px) {
-		left: 63.93rem - 8.71rem;
+		left: 55.94rem;
 		@include height-width(6.71rem, 9.29rem);
 	}
 
 	@media screen and (min-width: 1921px) {
-		left: 89.57rem;
+		left: 71.35rem;
 	}
 }
 
@@ -718,11 +715,11 @@ section {
 	}
 
 	@media screen and (min-width: 1440px) {
-		top: 48.12rem;
+		top: 53.53rem;
 	}
 
 	@media screen and (min-width: 1921px) {
-		top: 128.71rem;
+		top: 65.8rem;
 	}
 }
 
@@ -740,17 +737,16 @@ section {
 	}
 
 	@media screen and (min-width: 1440px) {
-		top: 42.69rem;
+		top: 48.21rem;
 		@include height-width(4.29rem, 9.29rem);
 	}
 
 	@media screen and (min-width: 1921px) {
-		top: 123.29rem;
+		top: 60rem;
 	}
 }
 
 .colors__absolute-4 {
-	@include height-width(5.93rem, 5rem);
 	left: 11.43rem;
 
 	@media screen and (min-width: 768px) {
@@ -759,16 +755,14 @@ section {
 
   @media screen and (min-width: 960px) {
     left: 28.57rem;
-    @include height-width(5.93rem, 6.43rem);
   }
 
   @media screen and (min-width: 1440px) {
-    left: 52.5rem - 8.71rem;
-    @include height-width(6.71rem, 9.29rem);
+    left: 35.5rem;
   }
 
   @media screen and (min-width: 1921px) {
-    left: 78.14rem;
+    left: 57.5rem;
   }
 }
 
@@ -786,11 +780,11 @@ section {
   }
 
   @media screen and (min-width: 1440px) {
-    top: 103.21rem - 63.64rem;
+    top: 46.17rem;
   }
 
   @media screen and (min-width: 1921px) {
-    top: 122rem;
+    top: 56.6rem;
   }
 }
 
@@ -807,12 +801,12 @@ section {
   }
 
   @media screen and (min-width: 1440px) {
-    top: 97.79rem - 63.64rem;
-    @include height-width(4.29rem);
+    top: 40.85rem + 0.15rem;
+    @include height-width(4.29rem, 9.29rem);
   }
 
   @media screen and (min-width: 1921px) {
-    top: 116.57rem;
+    top: 50.8rem;
   }
 }
 
@@ -831,11 +825,11 @@ section {
 
   @media screen and (min-width: 1440px) {
 	  @include height-width(4.29rem, 9.29rem);
-		@include left-top(75.36rem - 8.71rem, 42.69rem);
+		@include left-top(67.71rem, 48.21rem);
   }
 
   @media screen and (min-width: 1921px) {
-		@include left-top(101rem, 123.29rem);
+		@include left-top(85.2rem, 60rem);
   }
 }
 
@@ -856,7 +850,7 @@ section {
 	}
 
   @media screen and (min-width: 1921px) {
-		left: 26.79rem;
+		left: 19.4rem;
 	}
 }
 
@@ -874,11 +868,11 @@ section {
 	}
 
   @media screen and (min-width: 1440px) {
-		top: 109.5rem - 63.64rem;
+		top: 53.53rem;
 	}
 
   @media screen and (min-width: 1921px) {
-		top: 127.93rem;
+		top: 65.8rem;
 	}
 }
 
@@ -895,12 +889,13 @@ section {
   }
 
   @media screen and (min-width: 1440px) {
-    top: 104.5rem - 63.64rem;
+    //5.32
+    top: 48.21rem;
     @include height-width(4.29rem, 9.29rem); // 50x70
   }
 
   @media screen and (min-width: 1921px) {
-    top: 122.93rem;
+    top: 60rem;
   }
 }
 
@@ -923,7 +918,7 @@ section {
   }
 
   @media screen and (min-width: 1921px) {
-    left: 38.21rem;
+    left: 33.5rem;
   }
 }
 
@@ -941,11 +936,11 @@ section {
   }
 
   @media screen and (min-width: 1440px) {
-    top: 115.79rem - 63.64rem;
+		top: 60.53rem;
   }
 
   @media screen and (min-width: 1921px) {
-    top: 134.21rem;
+    top: 74.8rem;
   }
 }
 
@@ -962,12 +957,12 @@ section {
   }
 
   @media screen and (min-width: 1440px) {
-    top: 110.79rem - 63.64rem;
+    top: 55rem;
     @include height-width(4.29rem);
   }
 
   @media screen and (min-width: 1921px) {
-    top: 129.21rem;
+    top: 69rem;
   }
 }
 
@@ -985,12 +980,12 @@ section {
   }
 
   @media screen and (min-width: 1440px) {
-  	@include left-top(36.07rem - 8.71rem, 110.79rem - 63.64rem);
+  	@include left-top(27.83rem, 55rem);
     @include height-width(4.29rem, 9.29rem);
   }
 
   @media screen and (min-width: 1921px) {
-  	@include left-top(49.64rem, 129.21rem);
+  	@include left-top(47.64rem, 69rem);
   }
 }
 
@@ -1014,13 +1009,13 @@ section {
   }
 
   @media screen and (min-width: 1440px) {
-    @include left-top(83.15rem, 116.71rem - 53.07rem);
+    @include left-top(80.75rem, 58.95rem);
   	font-size: 16px;
 		line-height: 20px;
   }
 
   @media screen and (min-width: 1921px) {
-    @include left-top(117.5rem, 135.5rem);
+    @include left-top(97.8rem, 72rem);
   }
 }
 
@@ -1041,13 +1036,13 @@ section {
 	}
 
   @media screen and (min-width: 1440px) {
-  	@include height-width(35.43rem);
-		top: 59.14rem + 63.64rem + 13.57rem;
+  	@include height-width(47.14rem);
+		top: 133.7rem;
 	}
 
   @media screen and (min-width: 1921px) {
   	@include height-width(63.21rem, 97.79rem);
-    @include left-top(0.43rem, 142.64rem);
+    @include left-top(0.43rem, 80rem);
 	}
 }
 
@@ -1063,11 +1058,11 @@ section {
 	}
 
   @media screen and (min-width: 1440px) {
-		@include left-top(9.64rem, 7.14rem);
+		@include left-top(12rem, 7.14rem);
 	}
 
   @media screen and (min-width: 1921px) {
-		@include left-top(18.21rem, 149.64rem);
+		@include left-top(18.21rem, 0);
 	}
 }
 
@@ -1089,7 +1084,7 @@ section {
   }
 
   @media screen and (min-width: 1440px) {
-    @include left-top(52.5rem, 16.07rem);
+    @include left-top(64.7rem, 19rem);
   	font-size: 72px;
   	line-height: 91px;
   }
@@ -1116,7 +1111,7 @@ section {
   }
 
   @media screen and (min-width: 1440px) {
-    @include left-top(50rem, 28.5rem);
+    @include left-top(62.2rem, 30.7rem);
   	font-size: 14px;
   	line-height: 18px;
   }
